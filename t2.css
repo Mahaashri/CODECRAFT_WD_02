@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: #282c34;
+    color: white;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .container {
+    text-align: center;
+    background: #1e1e1e;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(0, 255, 255, 0.2);
+    width: 300px;
+  }
+  
+  .stopwatch {
+    font-size: 48px;
+    margin: 20px 0;
+  }
+  
+  .buttons button {
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    transition: background 0.2s ease-in-out;
+  }
+  
+  .buttons button:hover {
+    background-color: #0056b3;
+  }
+  
+  .laps {
+    margin-top: 20px;
+    list-style: none;
+    padding-left: 0;
+    max-height: 150px;
+    overflow-y: auto;
+  }
+  
+  .laps li {
+    background: #444;
+    margin: 4px 0;
+    padding: 8px;
+    border-radius: 6px;
+  }
+  
